@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Repositories", "Comm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.EntityFramework", "Common.EntityFramework\Common.EntityFramework.csproj", "{41A1BF28-AA5C-46C2-89B1-338BF4695D25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Angular.CSharpHelpers", "Common.Angular.CSharpHelpers\Common.Angular.CSharpHelpers.csproj", "{4E7D1100-9D5C-4FBA-820C-7A4C26733218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,12 @@ Global
 		{41A1BF28-AA5C-46C2-89B1-338BF4695D25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{41A1BF28-AA5C-46C2-89B1-338BF4695D25}.rkrdo|Any CPU.ActiveCfg = Release|Any CPU
 		{41A1BF28-AA5C-46C2-89B1-338BF4695D25}.rkrdo|Any CPU.Build.0 = Release|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.rkrdo|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D1100-9D5C-4FBA-820C-7A4C26733218}.rkrdo|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
