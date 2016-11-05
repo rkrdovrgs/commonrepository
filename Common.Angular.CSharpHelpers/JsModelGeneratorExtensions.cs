@@ -48,7 +48,7 @@ namespace Common.Angular.CSharpHelpers
                 var inst = Activator.CreateInstance(m);
                 //if(model == undefined || model == null)
                 //else
-                sb.AppendFormat(" \n __serviceInstance.{0} = function (model, setDefaults) {{  \n var instanceOfT = ", m.Name);
+                sb.AppendFormat(" \n __serviceInstance.{0} = function (model, setDefaults) {{ \n setDefaults = setDefaults !== false; \n var instanceOfT = ", m.Name);
                 sb.Append(JsonConvert.SerializeObject(inst, Formatting.Indented));
                 sb.Append("; \n");
 
